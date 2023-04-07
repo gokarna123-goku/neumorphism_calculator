@@ -17,7 +17,7 @@ body {
                 -6px -6px 16px rgba(255, 255, 255, 0.4);
     padding: 50px 30px;
     width: 380px;
-    height: 67vh;
+    height: 69vh;
 }
 
 .display {
@@ -53,6 +53,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -83,4 +84,14 @@ button:active:hover {
     background-color: #d9d9d9;
     color: #333;
 }
-  
+
+a{
+    text-decoration: none;
+    color: #6a6868;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* End */
