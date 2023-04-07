@@ -15,18 +15,18 @@ body {
     border-radius: 15px;
     box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.06),
                 -6px -6px 16px rgba(255, 255, 255, 0.4);
-    padding: 30px;
-    max-width: 350px;
-    height: 70vh;
+    padding: 50px 30px;
+    width: 380px;
+    height: 67vh;
 }
 
 .display {
-    background-color: #f2f2f2;
+    background-color: #b9b9b9;
     border-radius: 6px;
-    box-shadow: inset 6px 6px 16px rgba(0, 0, 0, 0.06),
-                inset -6px -6px 16px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 6px 6px 16px rgba(47, 47, 47, 0.06),
+                inset -6px -6px 16px rgba(113, 113, 113, 0.4);
     padding: 20px 15px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .display input {
@@ -56,11 +56,11 @@ body {
 }
 
 button {
-    background-color: #f2f2f2;
+    background-color: #dfdfdf;
     border: none;
     border-radius: 6px;
-    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.06),
-                -6px -6px 16px rgba(255, 255, 255, 0.4);
+    box-shadow: 6px 6px 16px rgba(30, 30, 30, 0.06),
+                -6px -6px 16px rgba(107, 107, 107, 0.4);
     color: #6a6868;
     cursor: pointer;
     font-size: 24px;
@@ -69,13 +69,14 @@ button {
 }
 
 button:hover {
-    background-color: #e6e6e6;
+    background-color: #d2d2d2;
     color: #333;
+    border: 2px solid rgba(0, 0, 0, 0.06);
 }
 
 button:active {
-    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1),
-                inset -4px -4px 8px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 4px 4px 8px rgba(53, 53, 53, 0.1),
+                inset -4px -4px 8px rgba(99, 99, 99, 0.3);
 }
 
 button:active:hover {
